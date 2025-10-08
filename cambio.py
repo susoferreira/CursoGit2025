@@ -49,3 +49,12 @@ def nameFood(food):
 fruits = ["apple", "banana", "cherry"]
 
 nameFood(fruits)
+
+def parseInt(str):
+  try:
+    return int(str)
+  except ValueError:
+    return "Not a number"
+  
+  
+print(parseInt("10"))
