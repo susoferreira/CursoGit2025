@@ -1,7 +1,15 @@
 #codigo super importante
 def add(a,b):
+    print("lolaso")
     return a + b
 
+# COMENTARIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+"""
+COMENTARIO MUTLILINEAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA
+"""
 def sub(a,b):
     return a - b
 
