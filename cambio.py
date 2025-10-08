@@ -10,7 +10,8 @@ def my_function():
 
 my_function()
 
-
+def saludar(nombre):
+  print("Hola " + nombre)
 
 def my_function(fname):
   print(fname + " Refsnes")
