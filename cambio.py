@@ -1,7 +1,14 @@
 #codigo super importante
 def add(a,b):
+    print("lolaso")
     return a + b
+# COMENTARIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
+"""
+COMENTARIO MUTLILINEAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA
+"""
 def sub(a,b):
     return a - b
 
@@ -10,11 +17,7 @@ def my_function():
 
 my_function()
 
-def saludar(nombre):
-  print("Hola " + nombre)
-
-def my_function(fname):
-  print(fname + " Refsnes")
+# pene
 
 my_function("Emil")
 my_function("Tobias")
@@ -50,11 +53,3 @@ fruits = ["apple", "banana", "cherry"]
 
 nameFood(fruits)
 
-def parseInt(str):
-  try:
-    return int(str)
-  except ValueError:
-    return "Not a number"
-  
-  
-print(parseInt("10"))
