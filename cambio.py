@@ -30,3 +30,12 @@ def myfunction():
   return "Hello Sally"
 
 print(myfunction())
+
+
+def countries(country = "Norway"):
+  print("I am from " + country)
+
+
+my_function("Sweden")
+my_function("India")
+my_function("Brazil")
