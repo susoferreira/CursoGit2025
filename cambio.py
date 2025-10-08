@@ -58,3 +58,18 @@ def parseInt(str):
   
   
 print(parseInt("10"))
+
+print(parseInt("Hola"))
+
+def lambda_example(x):
+  return lambda a : a * x
+
+mydoubler = lambda_example(2)
+print(mydoubler(11))
+
+
+def prueba():
+  global x
+  x = "fantastic"
+  
+prueba()
