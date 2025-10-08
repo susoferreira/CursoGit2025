@@ -39,3 +39,11 @@ def countries(country = "Norway"):
 my_function("Sweden")
 my_function("India")
 my_function("Brazil")
+
+def nameFood(food):
+  for x in food:
+    print(x)
+
+
+fruits = ["apple", "banana", "cherry"]
+my_function(fruits)
